@@ -46,6 +46,11 @@
       box-shadow: 4px 4px 48px #666;
       cursor: pointer;
     }
+
+    /** Hide given button when it's not used */
+    &.hide {
+      display: none;
+    }
   }
 
   /* off icons are hidden when parent svg has class 'on' */
