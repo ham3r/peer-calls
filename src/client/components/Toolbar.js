@@ -57,7 +57,7 @@ export default class Toolbar extends React.PureComponent {
       <div className="toolbar active">
         <div onClick={this.handleChatClick}
           ref={node => { this.chatButton = node }}
-          className="button chat"
+          className="button chat hide"
           data-blink={messages.length !== totalMessages && !isChatOpen}
           title="Chat"
         >

@@ -1,6 +1,6 @@
 .notifications {
-  font-family: $font-monospace;
-  font-size: 10px;
+  font-family: $font-sans-serif;
+  font-size: 40px;
   left: 1rem;
   position: fixed;
   right: 1rem;
@@ -11,6 +11,7 @@
   .notification {
     color: $color-info;
     padding: 0.25rem;
+    margin: 0.25rem;
     background-color: rgba(0, 0, 0, 0.2);
   }
 
@@ -19,6 +20,6 @@
   }
 
   .notification.warning {
-    color: $color-warning;
+    color: $color-primary;
   }
 }
